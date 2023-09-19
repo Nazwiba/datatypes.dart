@@ -12,7 +12,7 @@ void main(){
     double cgpa = 8.5;
     String email= "nasweebaa68@gmail.com";
 
-    /// String Interpolation - combine variables to a predefined String using $ $()
+    /// String Interpolation - combine variables to a predefined String using $ ${}
     /// for single variable use $variablename
     /// more than one varable use ${variablename}
     
