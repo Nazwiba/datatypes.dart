@@ -23,7 +23,7 @@ void main(){
   print("Student 1 phone = ${st1.phone = 7025194906}");
   print("Student 1 email = ${st1.email = 'nasweebaa68@gmail.com'}");
   print("Student 1 qualification = ${st1.qualification = 'btech cse'}");
-  print("Student 1 course  = ${Students.course}");
+  print("Student 1 course  = ${Students.course}"); /// syntax - classname.course
 
   print("******************************************");
   
