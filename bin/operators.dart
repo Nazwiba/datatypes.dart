@@ -60,6 +60,7 @@ var result = (username == "Nishana" && password == "nisha123") ?
   String? data = "hello";
 
   /// if String? data; output is  data is null
+
   var out = data?.length ?? "data is null";
   print(out);
 
