@@ -53,16 +53,18 @@ void main() {
   /// 1. expression/condition  ? true statement : false statement; - if condition is true it is execute in the true statement and the condition is false it is execute in the false statement
   /// 2. expression1 ?? expression2 - if expression 1 is null then expression 2 will execute else expression 1 will execute
 
-var result = (username == "Nishana" && password == "nisha123") ?
-'Welcome user' :  'incorrect username or password';
+  var result = (username == "Nishana" && password == "nisha123")
+      ? 'Welcome user'
+      : 'incorrect username or password';
   print(result);
 
-  String? data = "hello";
+  String? data;
 
   /// if String? data; output is  data is null
 
   var out = data?.length ?? "data is null";
   print(out);
-
-  
+  String? z = "hello";
+  var out1 = z.length ?? "data is null";
+  print(out1);
 }
