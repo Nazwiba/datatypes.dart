@@ -62,9 +62,10 @@ void main() {
 
   /// if String? data; output is  data is null
 
+  // ignore: dead_code
   var out = data?.length ?? "data is null";
   print(out);
   String? z = "hello";
-  var out1 = z.length ?? "data is null";
+  var out1 = z.length;
   print(out1);
 }
