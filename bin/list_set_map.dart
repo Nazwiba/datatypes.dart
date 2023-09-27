@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
 //   ///list =>  ordered collection  of values and support duplicate values denoted as []
 //   ///set => not support duplicate values if it is exist it is automatically removed
@@ -53,4 +55,29 @@ void main() {
   print(set1.union(set3)); // combine both set
   print(set1.intersection(set2)); // common value in both set
   print(set2.difference(set3)); // value present in set2 and not present in set1
+
+  ///map - store values as kay value pairs keys must be unique values can be same or different denote as {}
+  ///map<key,value>
+  Map<String, dynamic> map1 = {
+    "name": "Anu",
+    "age": 22,
+    "mark": 9.1,
+    "phone": 7025194906
+  };
+  map1.addAll({"email": "anu123@gmail.com"});
+
+  /// add email using addAll({});
+  map1["pincode"] = 679577;
+
+  ///add pincode using []
+  print(map1);
+  map1["age"] = 23;
+
+  /// change age using square bracket
+  print(map1);
+  map1.forEach((key, value) {
+    print("$key:$value");
+  });
+  print(map1.containsKey("hello")); /// to serach a value from a map
+  print(map1.containsValue(32));
 }
