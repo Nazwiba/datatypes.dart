@@ -42,7 +42,7 @@ int func4(int a, String b, double c) {
 }
 
 /// lamda function - function that contains only one statement to be executed
-/// lambda function without return type and parameter
+/// lambda function without return type and without parameter
 void func5() => print("hello"); // denoted as => instead of {}
 
 ///lambda function without return type and with parameter
