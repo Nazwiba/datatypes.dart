@@ -10,7 +10,7 @@ void main() {
   int i = 1;
   while (i <= 10) {
     // i++; we can write incr/decre counter here or below
-    print(1);
+    print(i);
     i++;
   }
 }
