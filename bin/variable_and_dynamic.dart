@@ -3,6 +3,6 @@ void main() {
   String name = "Hello";
   dynamic x = 10;
   x = "hi";
-  print(x);
+  print(name);
 ///var - variable type assigned according to initial value
 }
