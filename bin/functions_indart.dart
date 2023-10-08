@@ -4,7 +4,7 @@ void main() {
   String n = func2();
   print(n); //the data that returned from func2 stored in 'n'
   func3(100, 30); // here 100 and 30 are the actual parameters
-  print(func4(10, 'GOOD', 9));
+  print(func4(10, 'hello guys', 9));
   func5();
   func6(2, 4);
   print(func7());
@@ -13,7 +13,7 @@ void main() {
 
 /// User defined default function without return type
 void func1() {
-  // func1()in this bracket nothing is there it is a default function, if something is there it is parameter
+  // func1()in this bracket nothing is there it is a default function, if something is there  inside the bracket, it is parameter
   print("default function func1");
 }
 

@@ -1,6 +1,6 @@
 void main() {
   func(10, 100);
-  func1(1, "hello");
+  func1(1, "hello", 24,9.5);
   func2("hai", b: 20, a: "welcome", c: 9.1);
   func3("nazwi", b: 40, a: "mine");
   func4("hii", a: "november", b: 1234);

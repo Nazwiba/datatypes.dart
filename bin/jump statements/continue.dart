@@ -6,3 +6,4 @@ void main() {
     print(i);
   }
 }
+// here we write the condition of odd number but we get the even numbers as ouput
