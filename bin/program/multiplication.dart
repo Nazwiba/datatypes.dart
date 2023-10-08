@@ -1,8 +1,9 @@
 void main() {
-  int number = 3;
-  print("multiplication table for $number:");
+  int a = 3;
+  print("multiplication table for $a:");
   for (int i = 1; i <= 10; i++) {
-    int result = number * i;
-    print('$number * $i = $result');
+    int result = a * i;
+    print('$a * $i = $result');
   }
-}
+  
+  }

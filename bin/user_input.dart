@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   print("enter your name");
-  var name = stdin.readLineSync(); // reads a String value
+  var name = stdin.readLineSync()!; // reads a String value
   print("enter your age");
   var age = stdin.readLineSync()!; // ! - null check
   print("enter your cgpa");
