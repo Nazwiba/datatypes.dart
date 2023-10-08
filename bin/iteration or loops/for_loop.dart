@@ -1,10 +1,10 @@
 void main() {
   ///syntax : for(initialization ; condition checking ; increment or decrement operator){ }
-  for (int i = 1; i <= 10; i++) {
+  for (int i = 1; i <=10; i++) {
     /// i++ is postfix operator
     print(1);
   }
-  for (int i = 2; i <= 10; i++) {
+  for (int i = 2; i <=10; i++) {
     print(2);
   }
   for (int i = 3; i <= 10; i++) {
