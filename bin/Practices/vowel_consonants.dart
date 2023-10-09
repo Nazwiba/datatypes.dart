@@ -3,7 +3,7 @@ import 'dart:io';
 
 void main() {
   // Input character
-  print("eneter a character");
+  print("enter a character");
   var character = stdin.readLineSync()!;
 
   // Check if the character is a vowel or consonant
