@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 class X {
 //   X() {
 //     print("default constructor of class X ");
