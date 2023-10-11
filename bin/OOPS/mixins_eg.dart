@@ -16,9 +16,9 @@ mixin Mother {
 }
 
 class Child with Fatherr, Mother {
-  String name = " Alen";
+  String cname = " Alen";
   void cdetails(int age, int phone) {
-    print("name   = $name");
+    print("name   = $cname");
     print("age    = $age");
     print("phone  = $phone");
   }
@@ -52,6 +52,6 @@ void main() {
   print("***************************");
 
   obj.mdetails("teacher", 5678904567);
-  
+
   obj.display();
 }
