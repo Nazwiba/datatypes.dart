@@ -1,5 +1,5 @@
-mixin Fatherr {
-  String name = "john";
+mixin Fatherr { 
+String name = "john";
 
   void fdetailss(String job, int phone);
 
@@ -55,3 +55,5 @@ void main() {
 
   obj.display();
 }
+/// mixin - Mixins are a way of defining code that can be reused in multiple class hierarchies
+/// A mixin class declaration defines a class that is usable as both a regular class and a mixin, with the same name and the same type
