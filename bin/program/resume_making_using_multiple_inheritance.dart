@@ -2,21 +2,17 @@ abstract class Graduation {
   void degdetails(String degreename, String university, String place, int year,
       double mark);
 }
-
 abstract class Intermediate {
   void indetails(String coursename, String institution, String place, int year,
       double mark);
 }
-
 abstract class Schooling {
   void scdetails(
       String coursename, String school, String place, int year, double mark);
 }
-
 abstract class Personaldetails {
   void pdetails(String housename, String location, int age, int pincode);
 }
-
 class Child implements Graduation, Intermediate, Schooling, Personaldetails {
   void cdetails(String name, String email, String githublink,
       String linkedinlink, int phonenumber) {
@@ -26,7 +22,6 @@ class Child implements Graduation, Intermediate, Schooling, Personaldetails {
     print("phonenumber      = $phonenumber");
     print("linkedinlink     = $linkedinlink");
   }
-
   @override
   void degdetails(String degreename, String university, String place, int year,
       double mark) {
@@ -36,7 +31,6 @@ class Child implements Graduation, Intermediate, Schooling, Personaldetails {
     print("year        = $year");
     print("mark        = $mark");
   }
-
   @override
   void indetails(String coursename, String institution, String place, int year,
       double mark) {
@@ -46,7 +40,6 @@ class Child implements Graduation, Intermediate, Schooling, Personaldetails {
     print("year        = $year");
     print("mark        = $mark");
   }
-
   @override
   void scdetails(
       String coursename, String school, String place, int year, double mark) {
@@ -56,7 +49,6 @@ class Child implements Graduation, Intermediate, Schooling, Personaldetails {
     print("year        = $year");
     print("mark        = $mark");
   }
-
   @override
   void pdetails(String housename, String location, int age, int pincode) {
     print("housename    = $housename");
@@ -65,7 +57,6 @@ class Child implements Graduation, Intermediate, Schooling, Personaldetails {
     print("pincode      = $pincode");
   }
 }
-
 void main() {
   Child obj = Child();
   obj.cdetails("Nazwi", "Nazwi123@gmail.com", "Nazwi1234","nazwi45678", 7025194906);
