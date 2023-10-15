@@ -1,4 +1,5 @@
 import 'dart:io';
+
 void main() {
   print("enter a number");
   int num = int.parse(stdin.readLineSync()!);
@@ -6,13 +7,18 @@ void main() {
   while (num > 0) {
     rem = num % 10; // split
     rev = rev * 10 + rem; // rev+join
-    num = num ~/10;
+    num = num ~/ 10;
   }
-  if(temp==rev){
+  if (temp == rev) {
     print("palindrom number");
-  }else{
+  } else {
     print("not palindrome number");
   }
+  
 }
 // 123>0 true 123& 10=3 rev = 0*10+3=3 num = 123~/10= 12
 // 12>0 true 12%10 = 2 rev = 3*10+
+/// we can have 3 values temp= store original number rev = store reversed value rem = store remainder
+/// reversed value = reversed value*10+ remainder
+/// remainder = num % 10;
+/// we can any variable like abcdef instead of temp rev rem.
