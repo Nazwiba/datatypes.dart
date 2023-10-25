@@ -1,3 +1,5 @@
+///8.	Create multiple inheritance about family with complete data abstraction
+
 abstract class Father {
   void fdetails(String name, String job, int phone) {}
 }

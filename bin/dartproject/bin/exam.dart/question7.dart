@@ -1,3 +1,5 @@
+///7.	Print Prime Numbers present in between 10 and 20
+
 void main() {
   for (int number = 10; number <= 20; number++) {
     if (isPrime(number)) {

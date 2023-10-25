@@ -1,3 +1,8 @@
+///3.	Write a dart program to count the even , odd and zeros from the given list
+///var list = [1,4,65,-3,56,12,-8,0,12,45,-78,0,90]
+
+
+
 void main() {
   List<int> list = [1, 2, 65, -3, 56, 12, -8, 0, 12, 45, -78, 0, 90];
   int positivecount = 0;
